@@ -123,7 +123,7 @@ multiple-disease-prediction/
 └── LICENSE                       # MIT License
 ```
 
-## 💻 Usage
+##  Usage
 
 1. **Select Disease Type**: Choose from the sidebar which disease you want to predict
 2. **Input Parameters**: Enter the required medical parameters in the form
@@ -208,7 +208,7 @@ input_data = (
 
 *All datasets are publicly available and used for educational purposes.*
 
-## 🔬 Key Features by Disease
+## Key Features by Disease
 
 ### Diabetes Features:
 1. Pregnancies - Number of pregnancies
@@ -238,7 +238,7 @@ input_data = (
 ### Parkinson's Disease Features:
 Voice biomarkers including fundamental frequency variations, jitter, shimmer, noise-to-harmonic ratios, and nonlinear dynamical complexity measures that can detect vocal impairments associated with Parkinson's disease.
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - [ ] **Cloud Deployment** (Heroku/AWS/Google Cloud)
 - [ ] **Model Performance Dashboard**
@@ -252,7 +252,7 @@ Voice biomarkers including fundamental frequency variations, jitter, shimmer, no
 - [ ] **Confidence intervals** for predictions
 - [ ] **Model explainability** features (SHAP, LIME)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -262,18 +262,18 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 **This system is for educational and research purposes only. It should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult with qualified healthcare providers for medical decisions.**
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Datasets**: UCI Machine Learning Repository
 - **Libraries**: scikit-learn, Streamlit, pandas, numpy
 - **Inspiration**: Healthcare AI research community
 - **Special Thanks**: To the open-source community for providing excellent tools and datasets
 
-## 📈 Model Training Results
+## Model Training Results
 
 ### Parkinson's Disease Model Details:
 - **Algorithm**: Support Vector Machine (SVM) with Linear Kernel
