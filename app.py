@@ -1,7 +1,7 @@
 import os
 import pickle
 import streamlit as st
-from streamlit_option_menu import option_menu
+
 
 # Set page configuration
 st.set_page_config(page_title="Health Assistant",
@@ -246,5 +246,6 @@ if selected == "Parkinsons Prediction":
             parkinsons_diagnosis = "The person has Parkinson's disease"
         else:
             parkinsons_diagnosis = "The person does not have Parkinson's disease"
+
 
     st.success(parkinsons_diagnosis)
