@@ -1,6 +1,6 @@
 numpy
-scikit-learn
 streamlit
-streamlit_option_menu
+streamlit-option-menu
+scikit-learn
 
 
