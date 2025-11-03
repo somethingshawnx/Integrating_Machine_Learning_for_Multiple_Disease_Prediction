@@ -14,11 +14,11 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # loading the saved models
 
-diabetes_model = pickle.load(open(f'model\diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('model\diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open(f'model\heart_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('model\heart_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open(f'model\parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('model\parkinsons_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
@@ -248,5 +248,6 @@ if selected == "Parkinsons Prediction":
             parkinsons_diagnosis = "The person does not have Parkinson's disease"
 
     st.success(parkinsons_diagnosis)
+
 
 
